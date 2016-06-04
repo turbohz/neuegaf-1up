@@ -9,12 +9,12 @@
  "content_scripts": [
     {
       "matches": ["http://www.neogaf.com/forum/showthread.php*"],
-      "js": ["neuegaf_1up.js", "thread.js"],
+      "js": ["main.js", "thread.js"],
       "run_at": "document_end"
     }
   ],
   "background": {
-    "scripts": ["neuegaf_1up.js", "background.js"],
+    "scripts": ["main.js", "background.js"],
     "persistent": false
   },
   "manifest_version": 2,
