@@ -1,10 +1,8 @@
 (ns neuegaf-1up.thread
-  (:require [khroma.runtime :as runtime]
+  (:require
             [khroma.log :as console]
-            [cljs.core.async :refer [>! <!]]
-            [dommy.core :refer-macros [sel sel1] :refer [append!]]
-            )
-  (:require-macros [cljs.core.async.macros :refer [go]]))
+            [khroma.runtime :as runtime]
+            [dommy.core :refer-macros [sel sel1] :refer [append!]]))
 
 (defn reverse-posts []
   (let [posts (reverse (sel "#posts > div"))]

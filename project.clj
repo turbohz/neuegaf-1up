@@ -3,7 +3,6 @@
             :url "http://unlicense.org"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.36"]
-                 [org.clojure/core.async "0.2.374"]
                  [khroma "0.3.0"]
                  [prismatic/dommy "1.1.0"]]
   :source-paths ["src"]
