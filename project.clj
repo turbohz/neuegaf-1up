@@ -1,4 +1,4 @@
-(defproject neuegaf-1up "0.1.0-SNAPSHOT"
+(defproject neuegaf-1up "0.0.2-SNAPSHOT"
   :license {:name "Unlicense"
             :url "http://unlicense.org"}
   :dependencies [[org.clojure/clojure "1.8.0"]
