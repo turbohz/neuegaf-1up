@@ -17,5 +17,6 @@
                 {:source-paths ["src"]
                  :compiler {:output-to "target/unpacked/neuegaf_1up.js"
                             :output-dir "target/js"
+                            :parallel-build true
                             :optimizations :whitespace
-                            :pretty-print true}}}}}})
+                            :pretty-print false}}}}}})
