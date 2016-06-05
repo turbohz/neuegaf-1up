@@ -15,7 +15,9 @@
                {:main
                 {:source-paths ["src"]
                  :compiler {:output-to "target/unpacked/main.js"
-                            :output-dir "target/js"
+                            :source-map "target/unpacked/main.js.map"
+                            :output-dir "target/unpacked/"
                             :parallel-build true
                             :optimizations :whitespace
                             :pretty-print false}}}}}})
+
