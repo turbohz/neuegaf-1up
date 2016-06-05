@@ -8,7 +8,7 @@
   },
  "content_scripts": [
     {
-      "matches": ["http://m.neogaf.com/showthread.php*"],
+      "matches": ["http://m.neogaf.com/*"],
       "js": ["main.js", "thread.js"],
       "run_at": "document_end"
     }
